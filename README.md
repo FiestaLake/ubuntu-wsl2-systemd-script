@@ -1,4 +1,7 @@
 # ubuntu-wsl2-systemd-script
+
+Fork of the [archived repo](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) of DamionGans. I fixed it to make it work better with VSCode.
+
 Script to enable systemd support on current Ubuntu WSL2 images from the Windows store. 
 Script is unsupported and will no longer be maintained, but will be up here because it is used by quite some people.
 I am not responsible for broken installations, fights with your roommates and police ringing your door ;-).

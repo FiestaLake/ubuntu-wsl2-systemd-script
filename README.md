@@ -29,7 +29,7 @@ If you don't get an error and see a list of units, the script worked.
 
 ### Uninstalling
 ```sh
-$HOME/ubuntu-wsl2-systemd-script
+cd ~/ubuntu-wsl2-systemd-script
 bash uninstall.sh
 # Enter your [sudo] password to uninstall.
 ```

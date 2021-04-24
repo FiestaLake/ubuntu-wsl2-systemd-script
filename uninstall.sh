@@ -11,9 +11,11 @@ sudo rm -rf /etc/sudoers.d/systemd-namespace
 
 cd /var/tmp
 # Try bash first.
+if [ -f "/etc/bash.bashrc" ]; then
 sudo grep -v "# Start or enter a PID namespace in WSL2
 source /usr/sbin/start-systemd-namespace" /etc/bash.bashrc > tmpfile
 sudo mv tmpfile /etc/bash.bashrc
+fi
 # Then try zsh.
 if [ -f "/etc/zsh/zshrc" ]; then
 sudo grep -v "# Start or enter a PID namespace in WSL2

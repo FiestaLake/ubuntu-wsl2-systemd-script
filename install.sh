@@ -3,8 +3,8 @@
 force_install=false
 use_wslg_socket=true
 
-while true; do
-  case $1 in
+while true; for arg; do
+  case "${arg}" in
     --force)
       force_install=true
       shift

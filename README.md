@@ -1,6 +1,4 @@
-## [WSL2 now supports systemd natively (without this script!)](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)
-
-Consider using the native one unless you have very specific reasons to do so.
+# This repository is archived. [Please migrate to the native systemd for WSL2 solution provided by Microsoft.](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)
 
 # ubuntu-wsl2-systemd-script
 
@@ -27,7 +25,7 @@ sudo apt install git
 
 ### Installation
 ```sh
-git clone https://github.com/FiestaLake/ubuntu-wsl2-systemd-script.git ~/ubuntu-wsl2-systemd-script
+git clone https://github.com/saltyming/ubuntu-wsl2-systemd-script.git ~/ubuntu-wsl2-systemd-script
 cd ~/ubuntu-wsl2-systemd-script
 bash install.sh (--force) (--no-wslg)
 
